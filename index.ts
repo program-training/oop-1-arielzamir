@@ -82,5 +82,44 @@
 // console.log(coloredRectangle.info());
 
 // 4. Method Chaining
+//class Rectangle {
+//   height: number;
+//   width: number;
+
+//   constructor(height: number, width: number) {
+//     this.height = height;
+//     this.width = width;
+//   }
+
+//   area() {
+//     return this.height * this.width;
+//   }
+
+//   scale(coefficient: number): Rectangle {
+//     this.height *= coefficient;
+//     this.width *= coefficient;
+//     return this;
+//   }
+
+//   static combineRectangles(
+//     rectangle1: Rectangle,
+//     rectangle2: Rectangle
+//   ): Rectangle {
+//     const combineHeight = rectangle1.height + rectangle2.height;
+//     const combineWidth = rectangle1.width + rectangle2.width;
+//     return new Rectangle(combineHeight, combineWidth);
+//   }
+// }
+
+// const myRectangle = new Rectangle(5, 10);
+// //Get the original area
+// console.log(myRectangle.area());
+// //Get the scaled area
+// console.log(myRectangle.scale(2).area());
+// //Combine two areas of rectangles
+// const rectangle1 = new Rectangle(3, 5);
+// const rectangle2 = new Rectangle(3, 3);
+// const combinedRectangles = Rectangle.combineRectangles(rectangle1, rectangle2);
+// console.log(combinedRectangles.area());
 
 // 5. Shape with draw method
