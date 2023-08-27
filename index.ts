@@ -10,7 +10,7 @@
 //     this.width = width;
 //   }
 
-//   area() {
+//   area(): number {
 //     return this.height * this.width;
 //   }
 // }
@@ -26,7 +26,7 @@
 //     this.sideSquare = sideSquare;
 //   }
 
-//   area() {
+//   area(): number {
 //     return this.sideSquare * this.sideSquare;
 //   }
 // }
@@ -35,7 +35,7 @@
 
 // 3. Shape - צורה
 // class Shape {
-//   info() {
+//   info(): string {
 //     return "This is a shape.";
 //   }
 // }
@@ -50,11 +50,11 @@
 //     this.width = width;
 //   }
 
-//   area() {
+//   area(): number {
 //     return this.height * this.width;
 //   }
 
-//   info() {
+//   info(): string {
 //     return "This is a rectangle.";
 //   }
 // }
@@ -67,7 +67,7 @@
 //     this.color = color;
 //   }
 
-//   info() {
+//   info(): string {
 //     return `This is a rectangle colored ${this.color}`;
 //   }
 // }
@@ -91,7 +91,7 @@
 //     this.width = width;
 //   }
 
-//   area() {
+//   area(): number {
 //     return this.height * this.width;
 //   }
 
@@ -123,3 +123,37 @@
 // console.log(combinedRectangles.area());
 
 // 5. Shape with draw method
+// class Shape {
+//   draw(): string {
+//     return "Drawing a shape";
+//   }
+// }
+
+// class Triangle extends Shape {
+//   draw(): string {
+//     return "Drawing a triangle";
+//   }
+// }
+
+// class Circle extends Shape {
+//   draw(): string {
+//     return "Drawing a circle";
+//   }
+// }
+
+// class Square extends Shape {
+//   draw(): string {
+//     return "Drawing a square";
+//   }
+// }
+
+// function renderShapes(shapes: Shape[]): void {
+//   shapes.forEach((shape) => console.log(shape.draw()));
+// }
+
+// const circle = new Circle();
+// const triangle = new Triangle();
+// const square = new Square();
+
+// const shapes: Shape[] = [circle, triangle, square];
+// renderShapes(shapes);
