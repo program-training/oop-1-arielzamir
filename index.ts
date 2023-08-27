@@ -18,6 +18,20 @@
 // console.log(rectangle.area());
 
 //  2. Square - ריבוע
+// class Square extends Rectangle {
+//   sideSquare: number;
+
+//   constructor(sideSquare: number) {
+//     super(sideSquare, sideSquare);
+//     this.sideSquare = sideSquare;
+//   }
+
+//   area() {
+//     return this.sideSquare * this.sideSquare;
+//   }
+// }
+// const square = new Square(5);
+// console.log(square.area());
 
 // 3. Shape - צורה
 
